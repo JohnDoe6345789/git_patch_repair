@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-\"\"\"AI-style patch planner / iterative repair engine (v4).
+"""
+AI-style patch planner / iterative repair engine (v4).
 
 Modes:
 - --scan-only       : analyse only, never modify the input patch.
@@ -10,7 +11,7 @@ Notes:
 - In scan-only mode, no repairs are applied; the planner only observes and logs.
 - In apply-repairs / iterative modes, structural fixes (e.g. span header fixes)
   may be applied.
-\"\"\"
+"""
 
 from __future__ import annotations
 
